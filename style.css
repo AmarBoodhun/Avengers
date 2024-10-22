@@ -1,0 +1,63 @@
+/* Styles for the navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+/* Styles for the background image */
+  body {
+    background-image: url('images/tenor.gif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+/* Styles for the text container */
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Style for the text container */
+text-container {
+  background-color: rgba(0, 0, 0, 0.4); /* Black overlay with transparency */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style for the title */
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Style for the subtitle */
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+
